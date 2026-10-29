@@ -36,6 +36,13 @@ p = [[
     because it is a number), and then the or expression results in the value of its first expression, x. 
     When x > y is false, 
     the and expression is false and so the or results in its second expression, y.
+    
+    The operator not always returns true or false:
 ]]
 
 print(p)
+
+print(not nil)      --> true
+print(not false)    --> true
+print(not 0)        --> false
+print(not not nil)  --> false
